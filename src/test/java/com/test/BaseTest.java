@@ -23,6 +23,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.ScreenShot.CustomListener;
 import com.aventstack.extentreports.ExtentReports;
@@ -32,11 +33,13 @@ import com.excelReadWrite.HospitalName;
 import com.excelReadWrite.WriteData;
 import com.pages.BasePage;
 import com.pages.Page;
-import com.pom.pages.FilterPage;
-import com.pom.pages.HomePage;
-import com.pom.pages.LogoutPage;
-import com.pom.pages.SearchPage;
-import com.pom.pages.loginPage;
+import com.pom.utilities.Driver_setup;
+import com.pom.utilities.FilterPage;
+import com.pom.utilities.HomePage;
+import com.pom.utilities.LogoutPage;
+import com.pom.utilities.SearchPage;
+import com.pom.utilities.loginPage;
+
 import org.apache.log4j.Logger;
 
 @Listeners(CustomListener.class)
@@ -83,10 +86,10 @@ public class BaseTest {
 			
 			 if(browserName.equalsIgnoreCase("chrome"))
 			{
-				String ChromePath = ".\\Driver\\chromedriver.exe";
-				System.setProperty("webdriver.chrome.driver", ChromePath );
-			
-				driver = new ChromeDriver();
+				 Driver_setup obj = new Driver_setup();
+					
+					driver=obj.getChromeDriver();
+					log.info("*******Launching Chrome Driver**********");
 			}
 			 
 			
@@ -94,11 +97,10 @@ public class BaseTest {
 			 else if(browserName.equalsIgnoreCase("msedge"))
 			 {
 				 
-				 String ExplorerPath = ".\\Driver\\msedgedriver.exe";
-					System.setProperty("webdriver.edge.driver", ExplorerPath );
+				 Driver_setup obj = new Driver_setup();
 					
-
-					 driver = new EdgeDriver();		 
+					driver=obj.getEdgeDriver();
+					log.info("*******Launching Edge Driver**********");	 
 			}
 			 
 			
@@ -186,7 +188,7 @@ public class BaseTest {
 	
 	@Test(priority=7)
 	public void SignOut() {
-		ExtentTest test= extent.createTest("Check Out from the account");
+		ExtentTest test= extent.createTest("Log Out from the account");
 		page.getInstance(LogoutPage.class).logOut();
 		extent.flush();
 	}
@@ -194,11 +196,14 @@ public class BaseTest {
 	@Test(priority=8)
 		public void invsearchtest()
 		{
-		ExtentTest test= extent.createTest("Searvhing international hospitals");
+		ExtentTest test= extent.createTest("Searching international hospitals");
 			page.getInstance(SearchPage.class).dosearch(2);
 			String SearchPageTitle=SearchPage.Searchtitle;
 			log.info("Searching the hospital name");
-			//Assert.assertEquals(SearchPageTitle, "Best Hospitals in Chennai - Book Appointment Online, View Fees, Reviews | Practo");
+			SoftAssert sa=new SoftAssert();
+			sa.assertEquals(SearchPageTitle, "Best Hospitals in London - Book Appointment Online, View Fees, Reviews | Practo");
+			//test.fail("Wrong hospital search");
+			//Assert.assertEquals(SearchPageTitle, "Best Hospitals in London - Book Appointment Online, View Fees, Reviews | Practo");
 			extent.flush();
 		}
 	

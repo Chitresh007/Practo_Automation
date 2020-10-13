@@ -4,3 +4,42 @@
 2020-10-12 12:59:06,445 - com.test.BaseTest -INFO - Performing the login test 
 2020-10-12 12:59:18,571 - com.test.BaseTest -INFO - Searching the hospital name
 2020-10-12 12:59:39,813 - com.test.BaseTest -INFO - Writing into a excel sheet
+2020-10-13 12:23:48,951 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 12:23:53,469 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 12:23:54,503 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 12:24:11,411 - com.test.BaseTest -INFO - Performing the login test 
+2020-10-13 12:24:27,738 - com.test.BaseTest -INFO - Searching the hospital name
+2020-10-13 12:25:02,915 - com.test.BaseTest -INFO - Writing into a excel sheet
+2020-10-13 12:26:42,351 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 12:26:45,352 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 12:26:46,024 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 12:27:03,368 - com.test.BaseTest -INFO - Performing the login test 
+2020-10-13 12:27:14,619 - com.test.BaseTest -INFO - Searching the hospital name
+2020-10-13 12:27:35,579 - com.test.BaseTest -INFO - Writing into a excel sheet
+2020-10-13 12:39:29,721 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 12:39:33,304 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 12:39:34,187 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 12:39:49,449 - com.test.BaseTest -INFO - Performing the login test 
+2020-10-13 18:07:11,755 - com.test.BaseTest -INFO - *******Launching Chrome Driver**********
+2020-10-13 18:07:39,512 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 18:07:43,234 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 18:07:45,498 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 18:09:22,381 - com.test.BaseTest -INFO - Writing into a excel sheet
+2020-10-13 20:21:51,588 - com.test.BaseTest -INFO - *******Launching Chrome Driver**********
+2020-10-13 20:22:01,477 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 20:22:04,926 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 20:22:05,848 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 20:25:53,152 - com.test.BaseTest -INFO - *******Launching Chrome Driver**********
+2020-10-13 20:26:04,711 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 20:26:08,103 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 20:26:08,686 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 20:26:17,076 - com.test.BaseTest -INFO - Performing the login test 
+2020-10-13 20:26:35,062 - com.test.BaseTest -INFO - Searching the hospital name
+2020-10-13 20:27:00,590 - com.test.BaseTest -INFO - Writing into a excel sheet
+2020-10-13 20:28:01,483 - com.test.BaseTest -INFO - *******Launching Edge Driver**********
+2020-10-13 20:28:11,860 - com.test.BaseTest -INFO - Entering in application url
+2020-10-13 20:28:14,861 - com.test.BaseTest -INFO - Entering into a homepage
+2020-10-13 20:28:14,979 - com.test.BaseTest -INFO - The Title of of webpage is--->Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+2020-10-13 20:28:21,030 - com.test.BaseTest -INFO - Performing the login test 
+2020-10-13 20:28:26,057 - com.test.BaseTest -INFO - Searching the hospital name
+2020-10-13 20:28:39,823 - com.test.BaseTest -INFO - Writing into a excel sheet
